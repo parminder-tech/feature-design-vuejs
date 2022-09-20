@@ -109,6 +109,12 @@ body {
       span {
         color: #506bca;
       }
+      @media (max-width: 768px) {
+        font-size: 2.5rem;
+      }
+      @media (max-width: 500px) {
+        font-size: 1.75rem;
+      }
     }
     .card-container {
       display: flex;
